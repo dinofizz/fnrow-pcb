@@ -6,6 +6,6 @@ FnRow is a mechanical keyboard which features a single row of switches, in the f
 
 # License
 
-FnRow by Dino Fizzotti is licensed under Attribution-ShareAlike 4.0 International 
+FnRow by Dino Fizzotti is licensed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ![cc-by-sa](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
