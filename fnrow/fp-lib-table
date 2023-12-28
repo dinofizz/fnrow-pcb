@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name eec)(type KiCad)(uri /home/dinofizz/projects/rowpad/wurth/eec.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "eec")(type "KiCad")(uri "/Users/dinofizz/git/dino/fnrow-pcb/wurth/eec.pretty")(options "")(descr ""))
 )

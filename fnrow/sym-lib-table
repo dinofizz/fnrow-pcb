@@ -1,2 +1,4 @@
 (sym_lib_table
+  (version 7)
+  (lib (name "fnrow-rescue")(type "KiCad")(uri "${KIPRJMOD}/fnrow-rescue.kicad_sym")(options "")(descr ""))
 )
