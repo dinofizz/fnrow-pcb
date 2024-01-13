@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.5,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.0,
+          "height": 3.8,
+          "width": 2.0
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -48,7 +48,18 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.3,
+          "via_gap": 0.5,
+          "width": 0.3
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -171,7 +182,9 @@
         0.15,
         0.2,
         0.25,
+        0.3,
         0.4,
+        0.5,
         0.6
       ],
       "via_dimensions": [
@@ -181,6 +194,10 @@
         },
         {
           "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
           "drill": 0.3
         },
         {
@@ -645,6 +662,14 @@
       {
         "netclass": "Default",
         "pattern": "Net-(U3-Pad9)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_DD-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_DD+"
       }
     ]
   },
